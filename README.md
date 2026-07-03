@@ -21,7 +21,7 @@ and the best candidates rise to the top.
 | Actuarial Advisor | 13 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | Developer Relations (DevRel) | 10 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | DevOps Engineer | 9 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
-| Partner (Entrepreneur in Residence) | 5 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
+| Partner (Entrepreneur in Residence) | 6 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | Executive Assistant | 1 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 <!-- positions-end -->
 
@@ -156,11 +156,12 @@ Your application: `https://github.com/holdex/trial/issues/<your-issue-number>`
 
 | # | Candidate | Reactions |
 |---|-----------|-----------|
-| 1 | [HR: Partner (Entrepreneur in Residence): adryan prawira kusuma](https://github.com/holdex/trial/issues/1155) | 0 👍 |
-| 2 | [HR: Partner (Entrepreneur in Residence): Utibeima Jacobinyang](https://github.com/holdex/trial/issues/1144) | 0 👍 |
-| 3 | [HR: Partner (Entrepreneur in Residence): DWI INDRA YUWONO](https://github.com/holdex/trial/issues/1089) | 0 👍 |
-| 4 | [HR: Partner (Entrepreneur in Residence): Johanes Erico](https://github.com/holdex/trial/issues/1081) | 0 👍 |
-| 5 | [HR: Partner (Entrepreneur in Residence): Kustina Wardhani](https://github.com/holdex/trial/issues/1068) | 0 👍 |
+| 1 | [HR: Partner (Entrepreneur in Residence): Federico Delucchi](https://github.com/holdex/trial/issues/1183) | 0 👍 |
+| 2 | [HR: Partner (Entrepreneur in Residence): adryan prawira kusuma](https://github.com/holdex/trial/issues/1155) | 0 👍 |
+| 3 | [HR: Partner (Entrepreneur in Residence): Utibeima Jacobinyang](https://github.com/holdex/trial/issues/1144) | 0 👍 |
+| 4 | [HR: Partner (Entrepreneur in Residence): DWI INDRA YUWONO](https://github.com/holdex/trial/issues/1089) | 0 👍 |
+| 5 | [HR: Partner (Entrepreneur in Residence): Johanes Erico](https://github.com/holdex/trial/issues/1081) | 0 👍 |
+| 6 | [HR: Partner (Entrepreneur in Residence): Kustina Wardhani](https://github.com/holdex/trial/issues/1068) | 0 👍 |
 
 ### Python Engineer
 
