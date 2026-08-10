@@ -18,7 +18,7 @@ and the best candidates rise to the top.
 | Data Scientist | 21 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | GoLang Engineer | 15 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | Marketing Maestro (Head of Marketing) | 15 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
-| Actuarial Advisor | 13 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
+| Actuarial Advisor | 14 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | Developer Relations (DevRel) | 10 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | DevOps Engineer | 9 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | Partner (Entrepreneur in Residence) | 6 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
@@ -47,16 +47,16 @@ Your application: `https://github.com/holdex/trial/issues/<your-issue-number>`
 
 | # | Candidate | Reactions |
 |---|-----------|-----------|
-| 1 | [HR: Actuarial Advisor: Jionghao Du](https://github.com/holdex/trial/issues/1092) | 0 👍 |
-| 2 | [HR: Actuarial Advisor: Chi Hang Wai](https://github.com/holdex/trial/issues/1066) | 0 👍 |
-| 3 | [HR: Actuarial Advisor: kouadio yao fany modeste](https://github.com/holdex/trial/issues/897) | 0 👍 |
-| 4 | [HR: Actuarial Advisor: Shuhua Luo](https://github.com/holdex/trial/issues/870) | 0 👍 |
-| 5 | [HR: Actuarial Advisor: Arthur Ku](https://github.com/holdex/trial/issues/853) | 0 👍 |
-| 6 | [HR: Actuarial Advisor: Jerry To](https://github.com/holdex/trial/issues/852) | 0 👍 |
-| 7 | [HR: Actuarial Advisor: Kai Lee Tse](https://github.com/holdex/trial/issues/851) | 0 👍 |
-| 8 | [HR: Actuarial Advisor: Shubham Jain](https://github.com/holdex/trial/issues/827) | 0 👍 |
-| 9 | [HR: Actuarial Advisor: Owen Xu](https://github.com/holdex/trial/issues/826) | 0 👍 |
-| 10 | [HR: Actuarial Advisor: Cyril Bruce Bala](https://github.com/holdex/trial/issues/765) | 0 👍 |
+| 1 | [HR: Actuarial Advisor: Bowen Zhao](https://github.com/holdex/trial/issues/1189) | 0 👍 |
+| 2 | [HR: Actuarial Advisor: Jionghao Du](https://github.com/holdex/trial/issues/1092) | 0 👍 |
+| 3 | [HR: Actuarial Advisor: Chi Hang Wai](https://github.com/holdex/trial/issues/1066) | 0 👍 |
+| 4 | [HR: Actuarial Advisor: kouadio yao fany modeste](https://github.com/holdex/trial/issues/897) | 0 👍 |
+| 5 | [HR: Actuarial Advisor: Shuhua Luo](https://github.com/holdex/trial/issues/870) | 0 👍 |
+| 6 | [HR: Actuarial Advisor: Arthur Ku](https://github.com/holdex/trial/issues/853) | 0 👍 |
+| 7 | [HR: Actuarial Advisor: Jerry To](https://github.com/holdex/trial/issues/852) | 0 👍 |
+| 8 | [HR: Actuarial Advisor: Kai Lee Tse](https://github.com/holdex/trial/issues/851) | 0 👍 |
+| 9 | [HR: Actuarial Advisor: Shubham Jain](https://github.com/holdex/trial/issues/827) | 0 👍 |
+| 10 | [HR: Actuarial Advisor: Owen Xu](https://github.com/holdex/trial/issues/826) | 0 👍 |
 
 ### Data Scientist
 
