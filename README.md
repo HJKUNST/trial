@@ -19,7 +19,7 @@ and the best candidates rise to the top.
 | GoLang Engineer | 15 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | Marketing Maestro (Head of Marketing) | 15 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | Actuarial Advisor | 14 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
-| Developer Relations (DevRel) | 10 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
+| Developer Relations (DevRel) | 11 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | DevOps Engineer | 9 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | Partner (Entrepreneur in Residence) | 6 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | Other | 1 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
@@ -77,16 +77,16 @@ Your application: `https://github.com/holdex/trial/issues/<your-issue-number>`
 
 | # | Candidate | Reactions |
 |---|-----------|-----------|
-| 1 | [HR: Developer Relations (DevRel): Mahima Thacker](https://github.com/holdex/trial/issues/1166) | 0 👍 |
-| 2 | [HR: Developer Relations (DevRel): Prajal Sharma](https://github.com/holdex/trial/issues/1112) | 0 👍 |
-| 3 | [HR: Developer Relations (DevRel): Raj Lathigra](https://github.com/holdex/trial/issues/1110) | 0 👍 |
-| 4 | [HR: Developer Relations (DevRel): srujan vuyyuru](https://github.com/holdex/trial/issues/1101) | 0 👍 |
-| 5 | [HR: Developer Relations (DevRel): Prathmesh Ranjan](https://github.com/holdex/trial/issues/1022) | 0 👍 |
-| 6 | [HR: Developer Relations (DevRel): Roland Lopez](https://github.com/holdex/trial/issues/857) | 0 👍 |
-| 7 | [HR: Developer Relations (DevRel): Shantanu Swami](https://github.com/holdex/trial/issues/680) | 0 👍 |
-| 8 | [HR: Developer Relations (DevRel): Akshat Meena](https://github.com/holdex/trial/issues/639) | 0 👍 |
-| 9 | [HR: Developer Relations (DevRel): Ayush Thakur](https://github.com/holdex/trial/issues/633) | 0 👍 |
-| 10 | [HR: Developer Relations (DevRel): Akshaya Adireddy](https://github.com/holdex/trial/issues/100) | 0 👍 |
+| 1 | [HR: Developer Relations (DevRel): Untari Untari](https://github.com/holdex/trial/issues/1190) | 0 👍 |
+| 2 | [HR: Developer Relations (DevRel): Mahima Thacker](https://github.com/holdex/trial/issues/1166) | 0 👍 |
+| 3 | [HR: Developer Relations (DevRel): Prajal Sharma](https://github.com/holdex/trial/issues/1112) | 0 👍 |
+| 4 | [HR: Developer Relations (DevRel): Raj Lathigra](https://github.com/holdex/trial/issues/1110) | 0 👍 |
+| 5 | [HR: Developer Relations (DevRel): srujan vuyyuru](https://github.com/holdex/trial/issues/1101) | 0 👍 |
+| 6 | [HR: Developer Relations (DevRel): Prathmesh Ranjan](https://github.com/holdex/trial/issues/1022) | 0 👍 |
+| 7 | [HR: Developer Relations (DevRel): Roland Lopez](https://github.com/holdex/trial/issues/857) | 0 👍 |
+| 8 | [HR: Developer Relations (DevRel): Shantanu Swami](https://github.com/holdex/trial/issues/680) | 0 👍 |
+| 9 | [HR: Developer Relations (DevRel): Akshat Meena](https://github.com/holdex/trial/issues/639) | 0 👍 |
+| 10 | [HR: Developer Relations (DevRel): Ayush Thakur](https://github.com/holdex/trial/issues/633) | 0 👍 |
 
 ### DevOps Engineer
 
