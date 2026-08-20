@@ -11,8 +11,8 @@ and the best candidates rise to the top.
 | Role | Applicants |  |
 | ---- | ---------- | --- |
 | UX/UI Designer | 346 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
-| Full-Stack Engineer | 147 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
-| Senior Smart Contract Developer | 41 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
+| Full-Stack Engineer | 146 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
+| Senior Smart Contract Developer | 40 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | Python Engineer | 23 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | Data Scientist | 21 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | UX/UI Engineer | 20 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
