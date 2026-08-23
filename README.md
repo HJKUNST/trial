@@ -10,15 +10,15 @@ and the best candidates rise to the top.
 <!-- positions-start -->
 | Role | Applicants |  |
 | ---- | ---------- | --- |
-| UX/UI Designer | 346 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
+| UX/UI Designer | 347 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | Full-Stack Engineer | 146 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | Senior Smart Contract Developer | 39 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | Python Engineer | 24 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | Data Scientist | 21 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | UX/UI Engineer | 20 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | GoLang Engineer | 16 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
+| Actuarial Advisor | 15 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | Marketing Maestro (Head of Marketing) | 15 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
-| Actuarial Advisor | 14 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | Developer Relations (DevRel) | 11 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | DevOps Engineer | 9 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | Partner (Entrepreneur in Residence) | 6 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
@@ -47,16 +47,16 @@ Your application: `https://github.com/holdex/trial/issues/<your-issue-number>`
 
 | # | Candidate | Reactions |
 |---|-----------|-----------|
-| 1 | [HR: Actuarial Advisor: Bowen Zhao](https://github.com/holdex/trial/issues/1189) | 0 👍 |
-| 2 | [HR: Actuarial Advisor: Jionghao Du](https://github.com/holdex/trial/issues/1092) | 0 👍 |
-| 3 | [HR: Actuarial Advisor: Chi Hang Wai](https://github.com/holdex/trial/issues/1066) | 0 👍 |
-| 4 | [HR: Actuarial Advisor: kouadio yao fany modeste](https://github.com/holdex/trial/issues/897) | 0 👍 |
-| 5 | [HR: Actuarial Advisor: Shuhua Luo](https://github.com/holdex/trial/issues/870) | 0 👍 |
-| 6 | [HR: Actuarial Advisor: Arthur Ku](https://github.com/holdex/trial/issues/853) | 0 👍 |
-| 7 | [HR: Actuarial Advisor: Jerry To](https://github.com/holdex/trial/issues/852) | 0 👍 |
-| 8 | [HR: Actuarial Advisor: Kai Lee Tse](https://github.com/holdex/trial/issues/851) | 0 👍 |
-| 9 | [HR: Actuarial Advisor: Shubham Jain](https://github.com/holdex/trial/issues/827) | 0 👍 |
-| 10 | [HR: Actuarial Advisor: Owen Xu](https://github.com/holdex/trial/issues/826) | 0 👍 |
+| 1 | [HR: Actuarial Advisor: Chun Chak Lee](https://github.com/holdex/trial/issues/1231) | 0 👍 |
+| 2 | [HR: Actuarial Advisor: Bowen Zhao](https://github.com/holdex/trial/issues/1189) | 0 👍 |
+| 3 | [HR: Actuarial Advisor: Jionghao Du](https://github.com/holdex/trial/issues/1092) | 0 👍 |
+| 4 | [HR: Actuarial Advisor: Chi Hang Wai](https://github.com/holdex/trial/issues/1066) | 0 👍 |
+| 5 | [HR: Actuarial Advisor: kouadio yao fany modeste](https://github.com/holdex/trial/issues/897) | 0 👍 |
+| 6 | [HR: Actuarial Advisor: Shuhua Luo](https://github.com/holdex/trial/issues/870) | 0 👍 |
+| 7 | [HR: Actuarial Advisor: Arthur Ku](https://github.com/holdex/trial/issues/853) | 0 👍 |
+| 8 | [HR: Actuarial Advisor: Jerry To](https://github.com/holdex/trial/issues/852) | 0 👍 |
+| 9 | [HR: Actuarial Advisor: Kai Lee Tse](https://github.com/holdex/trial/issues/851) | 0 👍 |
+| 10 | [HR: Actuarial Advisor: Shubham Jain](https://github.com/holdex/trial/issues/827) | 0 👍 |
 
 ### Data Scientist
 
@@ -204,16 +204,16 @@ Your application: `https://github.com/holdex/trial/issues/<your-issue-number>`
 
 | # | Candidate | Reactions |
 |---|-----------|-----------|
-| 1 | [HR: UX/UI Designer: Chiu Lok Yan](https://github.com/holdex/trial/issues/1188) | 0 👍 |
-| 2 | [HR: UX/UI Designer: Majid Mohebbi](https://github.com/holdex/trial/issues/1184) | 0 👍 |
-| 3 | [HR: UX/UI Designer: Octavian Munteanu](https://github.com/holdex/trial/issues/1182) | 0 👍 |
-| 4 | [HR: UX/UI Designer: Bruno Neves](https://github.com/holdex/trial/issues/1180) | 0 👍 |
-| 5 | [HR: UX/UI Designer: Adrian Oduma](https://github.com/holdex/trial/issues/1165) | 0 👍 |
-| 6 | [HR: UX/UI Designer: Samuel Elliot](https://github.com/holdex/trial/issues/1162) | 0 👍 |
-| 7 | [HR: UX/UI Designer: Brendan Ma](https://github.com/holdex/trial/issues/1137) | 0 👍 |
-| 8 | [HR: UX/UI Designer: Darren Minihane](https://github.com/holdex/trial/issues/1127) | 0 👍 |
-| 9 | [HR: UX/UI Designer: Jamie Wong](https://github.com/holdex/trial/issues/1125) | 0 👍 |
-| 10 | [HR: UX/UI Designer: Samuel Elliot](https://github.com/holdex/trial/issues/1123) | 0 👍 |
+| 1 | [HR: UX/UI Designer: Chen Ruiyue](https://github.com/holdex/trial/issues/1230) | 0 👍 |
+| 2 | [HR: UX/UI Designer: Chiu Lok Yan](https://github.com/holdex/trial/issues/1188) | 0 👍 |
+| 3 | [HR: UX/UI Designer: Majid Mohebbi](https://github.com/holdex/trial/issues/1184) | 0 👍 |
+| 4 | [HR: UX/UI Designer: Octavian Munteanu](https://github.com/holdex/trial/issues/1182) | 0 👍 |
+| 5 | [HR: UX/UI Designer: Bruno Neves](https://github.com/holdex/trial/issues/1180) | 0 👍 |
+| 6 | [HR: UX/UI Designer: Adrian Oduma](https://github.com/holdex/trial/issues/1165) | 0 👍 |
+| 7 | [HR: UX/UI Designer: Samuel Elliot](https://github.com/holdex/trial/issues/1162) | 0 👍 |
+| 8 | [HR: UX/UI Designer: Brendan Ma](https://github.com/holdex/trial/issues/1137) | 0 👍 |
+| 9 | [HR: UX/UI Designer: Darren Minihane](https://github.com/holdex/trial/issues/1127) | 0 👍 |
+| 10 | [HR: UX/UI Designer: Jamie Wong](https://github.com/holdex/trial/issues/1125) | 0 👍 |
 
 ### UX/UI Engineer
 
