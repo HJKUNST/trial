@@ -10,15 +10,15 @@ and the best candidates rise to the top.
 <!-- positions-start -->
 | Role | Applicants |  |
 | ---- | ---------- | --- |
-| UX/UI Designer | 343 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
-| Full-Stack Engineer | 141 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
-| Senior Smart Contract Developer | 38 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
+| UX/UI Designer | 338 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
+| Full-Stack Engineer | 139 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
+| Senior Smart Contract Developer | 37 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | Python Engineer | 26 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | Data Scientist | 19 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
-| GoLang Engineer | 15 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | Marketing Maestro (Head of Marketing) | 15 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
-| UX/UI Engineer | 15 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | Actuarial Advisor | 14 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
+| GoLang Engineer | 14 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
+| UX/UI Engineer | 14 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | Developer Relations (DevRel) | 11 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | DevOps Engineer | 9 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
 | Partner (Entrepreneur in Residence) | 6 | [Apply →](https://github.com/holdex/trial/issues/new?template=job-application.yml) |
