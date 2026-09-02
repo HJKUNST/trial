@@ -4,7 +4,14 @@ const path = require('path');
 const APPLY_URL = 'https://github.com/holdex/trial/issues/new?template=job-application.yml';
 const TOP_N = 10;
 
+// Reviews cost one call per pull request, so the scan stops after this many.
+// Profile submissions are filtered out before the count, which leaves far
+// fewer than this today — the cap is what keeps a growing repo from paying
+// per-pull-request for its whole history.
+const REVIEW_SCAN_LIMIT = 100;
+
 const { labelToPosition } = require('./positions.js');
+const { TITLE_PATTERN } = require('../../scripts/profile-rules.js');
 
 async function fetchAllIssues(github, context) {
   let allIssues = [];
@@ -51,6 +58,80 @@ async function getThumbsUp(github, context, issueNumber) {
     page++;
   }
   return count;
+}
+
+/**
+ * Merged pull requests, profile submissions excluded. A profile submission is
+ * one file a candidate adds about themselves, and the leaderboard already
+ * names those candidates — counting them here would print that same list
+ * again instead of the people working on the repository.
+ */
+async function fetchMergedPulls(github, context) {
+  let merged = [];
+  let page = 1;
+  while (true) {
+    let data;
+    try {
+      ({ data } = await github.rest.pulls.list({
+        owner: context.repo.owner,
+        repo: context.repo.repo,
+        state: 'closed',
+        per_page: 100,
+        page,
+      }));
+    } catch (err) {
+      throw new Error(`fetchMergedPulls failed on page ${page}: ${err.message}`);
+    }
+    if (data.length === 0) break;
+    merged = merged.concat(data.filter(pr => pr.merged_at && !TITLE_PATTERN.test(pr.title)));
+    if (data.length < 100) break;
+    page++;
+  }
+  return merged;
+}
+
+/**
+ * How many of these pull requests each person reviewed. Someone who leaves
+ * five comments on one pull request reviewed one pull request, so reviewers
+ * are deduplicated per pull request before counting.
+ */
+async function countReviews(github, context, pulls) {
+  const counts = new Map();
+  for (const pr of pulls) {
+    let data;
+    try {
+      ({ data } = await github.rest.pulls.listReviews({
+        owner: context.repo.owner,
+        repo: context.repo.repo,
+        pull_number: pr.number,
+        per_page: 100,
+      }));
+    } catch (err) {
+      throw new Error(`countReviews failed for pull #${pr.number}: ${err.message}`);
+    }
+    for (const login of new Set(data.map(r => r.user && r.user.login).filter(Boolean))) {
+      counts.set(login, (counts.get(login) || 0) + 1);
+    }
+  }
+  return counts;
+}
+
+const isBot = login => login.endsWith('[bot]');
+
+/**
+ * The rows of the table: everyone who authored or reviewed, bots left out.
+ * coderabbitai[bot] reviews most pull requests here and would otherwise lead
+ * the reviews column.
+ */
+function rankContributors(authored, reviewed) {
+  return [...new Set([...authored.keys(), ...reviewed.keys()])]
+    .filter(login => !isBot(login))
+    .map(login => ({
+      login,
+      merged: authored.get(login) || 0,
+      reviews: reviewed.get(login) || 0,
+    }))
+    .sort((a, b) => b.merged - a.merged || b.reviews - a.reviews || a.login.localeCompare(b.login));
 }
 
 module.exports = async ({ github, context, core }) => {
@@ -107,6 +188,32 @@ module.exports = async ({ github, context, core }) => {
       ].join('\n');
     }).join('\n\n');
 
+    // Contributors — merged pull requests come out of the listing for free,
+    // reviews cost a call apiece and so are read only for the recent ones.
+    const mergedPulls = await fetchMergedPulls(github, context);
+
+    const authored = new Map();
+    for (const pr of mergedPulls) {
+      const login = pr.user && pr.user.login;
+      if (!login) continue;
+      authored.set(login, (authored.get(login) || 0) + 1);
+    }
+
+    const recentlyMerged = [...mergedPulls]
+      .sort((a, b) => new Date(b.merged_at) - new Date(a.merged_at))
+      .slice(0, REVIEW_SCAN_LIMIT);
+    const reviewed = await countReviews(github, context, recentlyMerged);
+
+    const contributors = rankContributors(authored, reviewed);
+
+    const contributorsTable = [
+      '| # | Contributor | PRs merged | Reviews |',
+      '|---|-------------|-----------|---------|',
+      ...contributors.map((c, i) =>
+        `| ${i + 1} | [@${c.login}](https://github.com/${c.login}) | ${c.merged} | ${c.reviews} |`
+      ),
+    ].join('\n');
+
     const readmePath = path.join(process.env.GITHUB_WORKSPACE, 'README.md');
     let readme = fs.readFileSync(readmePath, 'utf8');
     const original = readme;
@@ -118,6 +225,10 @@ module.exports = async ({ github, context, core }) => {
     readme = readme.replace(
       /<!-- leaderboard-start -->[\s\S]*?<!-- leaderboard-end -->/,
       `<!-- leaderboard-start -->\n${leaderboardContent}\n<!-- leaderboard-end -->`
+    );
+    readme = readme.replace(
+      /<!-- contributors-start -->[\s\S]*?<!-- contributors-end -->/,
+      `<!-- contributors-start -->\n${contributorsTable}\n<!-- contributors-end -->`
     );
 
     if (readme === original) {
@@ -146,3 +257,7 @@ module.exports = async ({ github, context, core }) => {
     core.setFailed(err.message);
   }
 };
+
+module.exports.fetchMergedPulls = fetchMergedPulls;
+module.exports.countReviews = countReviews;
+module.exports.rankContributors = rankContributors;
