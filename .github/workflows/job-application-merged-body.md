@@ -7,4 +7,4 @@ Pick your trial task from the open backlog:
 - [Problems](https://github.com/holdex/trial/issues?q=is%3Aissue+is%3Aopen+type%3AProblem)
 - [Bugs](https://github.com/holdex/trial/issues?q=is%3Aissue+is%3Aopen+type%3ABug)
 
-Assign yourself to the one you pick, so others know it's taken.
+Leave a comment on the one you pick, so others know it's taken.
