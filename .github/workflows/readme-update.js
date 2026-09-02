@@ -204,7 +204,7 @@ module.exports = async ({ github, context, core }) => {
       .slice(0, REVIEW_SCAN_LIMIT);
     const reviewed = await countReviews(github, context, recentlyMerged);
 
-    const contributors = rankContributors(authored, reviewed);
+    const contributors = rankContributors(authored, reviewed).slice(0, TOP_N);
 
     const contributorsTable = [
       '| # | Contributor | PRs merged | Reviews |',
