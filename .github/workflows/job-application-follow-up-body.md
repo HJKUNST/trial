@@ -82,6 +82,16 @@ If no pull request appears within three weeks,
 we close this application with the reason `no PR was submitted`.
 That is not a rejection, and you are welcome to apply again.
 
+### Share your application
+
+> [!TIP]
+> Your application is now public —
+> share it with your network and ask them to react with 👍.
+> The more support you collect,
+> the higher you rank on the leaderboard and the sooner you get reviewed.
+>
+> Your application: <https://github.com/holdex/trial/issues/${issue_number}>
+
 Questions go in this issue.
 Follow along on [X](https://x.com/HoldexIo),
 [Bluesky](https://bsky.app/profile/zolotokrylin.bsky.social)
